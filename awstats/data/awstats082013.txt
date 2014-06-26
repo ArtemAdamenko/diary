@@ -1,0 +1,1082 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201308 will be lost/reset.
+# Last config file used to build this data file was ./awstats.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1934                
+POS_TIME 2615                
+POS_VISITOR 26485               
+POS_DAY 38447               
+POS_DOMAIN 3486                
+POS_LOGIN 3922                
+POS_ROBOT 4077                
+POS_WORMS 4795                
+POS_EMAILSENDER 4926                
+POS_EMAILRECEIVER 5069                
+POS_SESSION 39317               
+POS_SIDER 39529               
+POS_FILETYPES 5204                
+POS_OS 5393                
+POS_BROWSER 5607                
+POS_SCREENSIZE 6850                
+POS_UNKNOWNREFERER 6924                
+POS_UNKNOWNREFERERBROWSER 8038                
+POS_ORIGIN 8146                
+POS_SEREFERRALS 8296                
+POS_PAGEREFS 8480                
+POS_SEARCHWORDS 11722               
+POS_KEYWORDS 20468               
+POS_MISC 2279                
+POS_ERRORS 23998               
+POS_CLUSTER 3778                
+POS_SIDER_404 24120               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130901001022 106 21248 4699010416621
+FirstTime 20130801001414
+LastTime 20130831224249
+LastUpdate 20130901031227 106 0 91 0 14
+TotalVisits 496                 
+TotalUnique 296                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 296                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 24 24 446861 51 52 798735
+1 25 25 794249 96 122 1362616
+2 48 48 1163728 59 66 955671
+3 27 27 457972 95 95 1880780
+4 37 37 687888 54 55 870449
+5 38 38 693283 64 65 998195
+6 49 49 2377764 55 57 906195
+7 71 71 3403411 50 69 838531
+8 187 187 5669794 57 131 925336
+9 110 110 6335246 47 84 747487
+10 111 111 4841242 49 78 790029
+11 86 86 5635121 88 109 1388634
+12 172 172 7627225 58 104 924442
+13 100 100 5164910 76 144 1200549
+14 110 110 4347535 43 125 747266
+15 61 61 2206014 70 98 1139438
+16 56 56 2472183 54 62 840117
+17 97 97 4820060 53 76 836960
+18 146 146 5637968 73 137 1122538
+19 407 407 14001947 86 400 936067
+20 233 233 14955659 116 239 2062148
+21 58 58 3125949 59 82 951156
+22 62 62 1741344 90 93 1461427
+23 37 37 1577053 75 83 1108073
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+ip 962 962 42435767
+us 957 957 41243565
+eu 159 159 4279349
+ru 103 103 4907369
+gb 84 84 4232828
+fr 32 32 603131
+de 20 20 1266683
+fi 19 19 352580
+ir 7 7 407118
+ch 4 4 363250
+pt 1 1 17012
+ua 1 1 19090
+cn 2 2 37877
+se 1 1 18787
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+no_user_agent 518 9689972 20130831225922 0
+googlebot 127 2686848 20130831140531 0
+java\/[0-9] 110 1832203 20130830200044 0
+yandex 96 1845913 20130831210748 0
+bot[\s_+:,\.\;\/\\-] 79 1550229 20130829185258 0
+crawl 34 638021 20130831032450 0
+[\s_+:,\.\;\/\\-]bot 33 649479 20130831005424 0
+robot 32 595325 20130809184631 0
+rambler 11 468325 20130801201447 0
+mail\.ru 11 182659 20130830203243 0
+libwww 2 37574 20130813223555 0
+ng\/1\. 1 19090 20130824014857 0
+favicon 1 18787 20130807010520 0
+mj12bot 1 19090 20130816120835 0
+sogou 1 19090 20130830235303 0
+nutch 2 37574 20130813171816 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 2 37610 0 0
+eot 90 3502744 0 0
+ttf 8 2698960 0 0
+html 1042 19185982 0 0
+Unknown 811 13900046 0 0
+woff 395 59336340 0 0
+svg 4 1522724 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 16
+linuxandroid 26
+winlong 118
+winxp 534
+win2000 24
+winnt 219
+win98 6
+linux 509
+winvista 57
+win16 3
+winme 21
+macosx 60
+win95 29
+winunknown 19
+win2003 32
+Unknown 125
+win2008 570
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 76
+msie6.0 125
+firefox3.0.1 1
+chrome28.0.1500.94 9
+firefox18.0 2
+msie4.01 212
+chrome29.0.1547.62 6
+curl 1
+chrome23.0.1271.95 3
+chrome24.0.1312.71 11
+chrome28.0.1500.72 8
+msie8.0 103
+chrome27.0.1453.95 4
+opera7.60 3
+netscape3.0 3
+chrome25.0.1323.1 2
+chrome5.0.307.9 1
+msie7.0 107
+firefox23.0 121
+chrome25.0.1364.152 6
+firefox9.0.1 3
+opera9.0 2
+firefox3.0 1
+firefox13.0 8
+firefox21.0 2
+opera9.01 3
+safari6.0 42
+firefox10.0.1 1
+safari2.0.4 2
+chrome24.0.1312.60 2
+mozilla 125
+chrome26.0.1410.64 1
+firefox14.0.1 8
+firefox3.6.3 1
+safari5.1.9 7
+safari 2
+firefox15.0.1 1
+firefox5.0 2
+chrome29.0.1547.57 81
+firefox20.0 4
+chrome23.0.1271.64 6
+android 15
+chrome23.0.1.0 2
+chrome28.0.1500.95 757
+opera9.00 9
+firefox9.0 1
+chrome28.1.0.0 16
+opera9.80 238
+iphone 3
+chrome19.1.1084.5409 1
+firefox13.0.1 2
+netscape0.91 2
+msie2.0 27
+msie5.0 5
+msie9.0 3
+chrome18.0.1025.1634 2
+Unknown 16
+firefox11.0 2
+chrome8.0.552.224 4
+chrome21.0.1180.75 8
+iceweasel 1
+opera8.00 9
+chrome29.0.1547.59 2
+samsung 1
+firefox3.6.16 1
+chrome28.0.1500.71 3
+msie5.5 13
+netscape4.79 3
+chrome16.0.912.75 1
+firefox22.0 67
+chrome25.0.1364.172 68
+msie10.0 17
+firefox6.0 2
+safari5.1 6
+chrome27.0.1453.116 5
+chrome23.0.1271.97 6
+firefox3.5.7 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20130828072940
+Mozilla/5.0_(compatible;_SearchBot) 20130830125232
+curl/7.30.0 20130804093227
+Mozilla/5.0_(compatible;_U;_AnyEvent-HTTP/2.15;__http://software.schmorp.de/pkg/AnyEvent) 20130825115423
+SAMSUNG-GT-S5230/S523MXEJF1_SHP/VPP/R5_Jasmine/1.0_Nextreaming_SMM-MMS/1.2.0_profile/MIDP-2.1_configuration/CLDC-1.1 20130823094107
+URLGrabber 20130819050857
+Opera/9.80_(Android;_Opera_Mini/6.1.25375/30.3697;_U;_ru)_Presto/2.8.119_Version/11.10 20130815130241
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20130827121811
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20130830175632
+Mozilla/4.0_(compatible;_Synapse) 20130812222756
+Opera/9.80_(Series_60;_Opera_Mini/7.0.32400/30.3643;_U;_ru)_Presto/2.8.119_Version/11.10 20130811120211
+Mozilla/4.0_(compatible;_Blog_Search;) 20130827001945
+Mozilla/3.0_(compatible;_Indy_Library) 20130807160628
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/30.3643;_U;_ru)_Presto/2.8.119_Version/11.10 20130811110232
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+URLGrabber 20130819050857
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 380 380
+From1 19 19
+From2 140 140
+From3 553 553
+From4 1260 1260
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 30 30
+rambler 2 2
+yandex 108 108
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 108
+http://mug-na-chas-moscow.ru 21 21
+http://youtubeviewspromotion.com 21 21
+http://muznachas-service.ru 21 21
+http://www.bravica.com/ru/ 18 18
+http://ogosexshop.com.ua 15 15
+http://www.echomsk.spb.ru 15 15
+http://seoprodvig.ru 14 14
+http://eroto4ka.ru 12 12
+http://www.artparquet.ru 12 12
+http://www.industrial-capital.org 12 12
+http://www.tury.ru 6 6
+http://www.santehsmet.ru 3 3
+http://stroikak.com 3 3
+http://vse-kupim.ru 2 2
+http://muzik-stili.ru 3 3
+http://yznaimena.ru 3 3
+http://www.socioforum.su 3 3
+http://r-e-f-e-r-e-r.com/englishaccent.ru 2 2
+http://hdseven.ru 9 9
+http://stroimdom.mybb.ru 2 2
+http://moscow-clining.ru 9 9
+http://www.polimin.ru 3 3
+http://karadene.com 3 3
+http://www.narugka.ru 3 3
+http://vseproaveo.ru 6 6
+http://www.tvspirit.net 6 6
+http://dollyeye.ru 6 6
+http://valdaidom.ru 9 9
+http://www.uabuild.com 9 9
+http://www.script-tutorials.com 9 9
+http://sovetogorod.ru/ovosh_pomidor_virashivanie.html 2 2
+http://weightlosskingdom.com 2 2
+http://rescuer.ucoz.net 3 3
+http://jazz-stone.ru 3 3
+http://santexnik-spb.ru 6 6
+http://xn--10--8cd9agl1abic8a.xn--p1ai 3 3
+http://deviceservice.ru 9 9
+http://lankarns.com 3 3
+http://vrnelectro.ru 3 3
+http://web-uroki.ru 3 3
+http://www.profile-m.com 3 3
+http://mawords.com/englishaccent.ru 1 1
+http://sivs.ru 3 3
+http://gadgetsite.co.il 3 3
+http://gigtv.org 3 3
+http://en.winpm.ws 3 3
+http://goo.gl/sgVHhy 1 1
+http://www.bravica.org/ru/ 3 3
+http://namobilu.com 4 4
+http://basicuse.net 6 6
+http://vashkupe.ru 9 9
+http://assorti.in 2 2
+http://eliraz.ru 1 1
+http://komputernaya-pomosh-moscow.ru 6 6
+http://jci-congress.net 1 1
+http://prikoly.ws 3 3
+http://www.web-star.org.ua 3 3
+http://piratik.at.ua 2 2
+http://zemlanin.info 3 3
+http://dagitalgaz.ru 3 3
+http://male.seopower.su 2 2
+http://sovetogorod.ru/ovosh_chesnok_virashivanie.html 3 3
+http://www.web-star.org.ua/sozdanie-sajtov.html 3 3
+http://moygarag.ru 8 8
+http://companyru.com 5 5
+http://extrabot.com/help/grorogatifajoma.htm 2 2
+http://rus-teh.narod.ru 3 3
+http://rusblat.ru 3 3
+http://www.stazher.com 3 3
+http://www.polimin.ru 3 3
+http://vse-o-cvetah2.ru 4 4
+http://sadovodst.ru 3 3
+http://bidla.net 3 3
+http://master-remont-tehniki.ru 3 3
+http://skydiving.mybb.ru 2 2
+http://uuu.7ai.ru 3 3
+http://landteme.net 2 2
+http://go.mail.ru/search 2 2
+http://sovetogorod.ru 2 2
+http://www.medius-spb.ru 3 3
+http://woman.seopower.su 4 4
+http://youtubeviewspromotion.com 3 3
+http://sevastopol-life.com 1 1
+http://russ-tractor.ru 3 3
+http://woman.seopower.su 1 1
+http://atkinx.com 9 9
+http://galaxyflowers.ru 7 7
+http://pornogig.com 6 6
+http://golden-praga.ru 6 6
+http://stroitalk.ru 3 3
+http://renkele.net 6 6
+http://m.mail.ru/cgi-bin/link 1 1
+http://ra-da.su 3 3
+http://remont-mobile-phones.ru 3 3
+http://internetparketspb.ru 3 3
+http://bowlingadvisor.com 2 2
+http://free-bet-max.info 12 12
+http://oformlenye.ru 2 2
+http://investaki.ru 6 6
+http://timetorelax.biz 3 3
+http://vk.com/im 1 1
+http://planetakino.com 2 2
+http://rada.ru/souvenir/ 9 9
+http://www.ipoliv.ru 12 12
+http://aztraf.pw 3 3
+http://www.stattionline.org.ua 9 9
+http://finaneinvest.net 2 2
+http://emigrant.name 9 9
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 56
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 23
+english+accent+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 19
+%d0%b8%d0%bd%d0%b3%d0%bb%d0%b8%d1%88+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 5
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%b2+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 3
+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba+english+accent 2
+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 2
+%d1%81%d0%b0%d0%b9%d1%82+english+accent+%d1%82%d0%b5%d0%b2%d0%be%d1%81%d1%8f%d0%bd%d0%b0+27%2f2 2
+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82 2
+http+//englishaccent.ru/ 1
+englishaccent.ru%2fsite%2fprograms 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%b2+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%bc%d1%83+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f+%d0%bd%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%bc+%d0%b4%d0%bb%d1%8f+%d0%bb%d0%b0%d0%b3%d0%b5%d1%80%d1%8f 1
+%d0%be%d0%bb%d1%8c%d0%b3%d0%b0+%d0%b0%d0%bb%d0%b5%d0%ba%d1%81%d0%b5%d0%b5%d0%b2%d0%bd%d0%b0+%d0%b1%d0%be%d0%bd%d0%b4%d0%b0%d1%80%d0%b5%d0%b2%d0%b0+city%26guilds 1
+%d1%81%d0%b8%d1%82%d0%b8+%d1%8d%d0%bd%d0%b4+%d0%b3%d0%b8%d0%bb%d0%b4%d1%81 1
+englishaccentmgn%40yandex.ru 1
+english+accent+%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+english+accent 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b5+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%b2+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b0%d1%8f+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+english+accent+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d1%81%d0%ba%d0%be%d0%bb%d1%8c%d0%ba%d0%be+%d1%81%d1%82%d0%be%d0%b8%d1%82+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5+%d0%b8%d0%bd%d0%be%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%bd%d1%8b%d1%85+%d1%8f%d0%b7%d1%8b%d0%ba%d0%be%d0%b2+%d0%b2+%d0%bc%d0%b5%d1%81%d1%8f%d1%86+%d0%b2+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5 1
+%d1%80%d0%b0%d0%b7%d0%b3%d0%be%d0%b2%d0%be%d1%80%d0%bd%d1%8b%d0%b9+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b0%d1%8f+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b8%d0%bd%d0%b3%d0%bb%d0%b8%d1%88+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba+%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b 1
+city%26guilds 1
+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d1%8b%d0%b9+%d1%86%d0%b5%d0%bd%d1%82%d1%80+%d1%81%d0%b8%d1%82%d0%b8+%d1%8d%d0%bd%d0%b4%d0%b3%d0%b8%d0%bb%d0%b4%d1%81 1
+english+accent+centre 1
+english+accent+%d0%bb%d0%b8%d0%bd%d0%b3%d0%b2%d0%b8%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9+%d1%86%d0%b5%d0%bd%d1%82%d1%80+%d0%a7%d0%9e%d0%a3+%d0%94%d0%9e%d0%9b%d0%a6+%d0%90%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82 1
+%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d1%8b%d0%b9+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd+city+and+guilds 1
+city+and+guilds+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd 1
+englishaccent 1
+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b4%d0%bb%d1%8f+%d0%b4%d0%b5%d1%82%d0%b5%d0%b9 1
+%d1%85%d1%8d%d0%bf%d0%bf%d0%b8+%d0%b8%d0%bd%d0%b3%d0%bb%d0%b8%d1%88+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba+%d1%81%d1%82%d0%be%d0%b8%d0%bc%d0%be%d1%81%d1%82%d1%8c+%d0%ba%d1%83%d1%80%d1%81%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be+accent 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be+%d1%8f%d0%b7%d1%8b%d0%ba%d0%b0+%d0%b2+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5+%d0%90%d0%9d%d0%93%d0%9b%d0%98%d0%99%d0%a1%d0%9a%d0%98%d0%99+%d0%90%d0%9a%d0%a6%d0%95%d0%9d%d0%a2 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be+%d1%8f%d0%b7%d1%8b%d0%ba%d0%b0+%d1%82%d0%b5%d0%b2%d0%be%d1%81%d1%8f%d0%bd%d0%b0 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b7%d0%b0+2+%d0%b3%d0%be%d0%b4%d0%b0 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be+%d1%8f%d0%b7%d1%8b%d0%ba%d0%b0+%d0%b8%d0%bd%d0%b3%d0%bb%d0%b8%d1%88+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d0%b8%d0%bd%d0%b3%d0%bb%d0%b8%d1%88+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba+%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b 1
+patent+english+accent 1
+city%26+guilds 1
+%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b8%d0%b9+%d1%86%d0%b5%d0%bd%d1%82%d1%80+%d0%98%d0%bd%d0%b3%d0%bb%d0%b8%d1%88+%d0%b2+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5 1
+%d0%ba%d0%b0%d0%ba%d0%b8%d0%b5+%d1%81%d1%82%d1%80%d0%b0%d0%bd%d1%8b+%d0%bf%d1%80%d0%b8%d0%b7%d0%bd%d0%b0%d1%8e%d1%82+city+%26+guilds 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b0%d1%8f+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%bd%d0%be%d1%82%d0%b5+%d0%b1%d0%b5%d0%bd%d0%b5+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%b2+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5+%d1%85%d0%b0%d1%80%d0%b0%d0%ba%d1%82%d0%b5%d1%80%d0%b8%d1%81%d1%82%d0%b8%d0%ba%d0%b0 1
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%b2+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5%d1%82%d0%b5%d0%b2%d0%be%d1%81%d1%8f%d0%bd%d0%b0+27 1
+englishaccent.ru 1
+%d1%81%d0%b0%d0%b9%d1%82+english+accent 1
+%d0%b1%d0%be%d0%bd%d0%b4%d0%b0%d1%80%d0%b5%d0%b2%d0%b0+%d0%be%d0%bb%d1%8c%d0%b3%d0%b0+%d0%b0%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80%d0%be%d0%b2%d0%bd%d0%b0+city%26guilds 1
+city+and+guilds+%d1%81%d0%b4%d0%b0%d1%82%d1%8c+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd 1
+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd+%d0%b2+%d0%b2%d0%b8%d0%b4%d0%b5+%d1%81%d0%be%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f+%d0%bd%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%bc%d1%83+keet 1
+%d1%80%d0%b0%d0%b7%d0%b3%d0%be%d0%b2%d0%be%d1%80%d0%bd%d1%8b%d0%b9+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d0%b0+%d0%bd%d0%b0+3+%d0%b3%d0%be%d0%b4%d0%b0+%d0%b4%d0%bb%d1%8f+%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba%d0%be%d0%b2 1
+%d0%b0%d0%ba%d1%81%d0%b5%d0%bd%d1%82+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d1%8b%d0%b9+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd+guild%60s 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 88
+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 64
+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82 46
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9 38
+accent 31
+english 30
+%d0%b2 12
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0 12
+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5 10
+%d0%b8%d0%bd%d0%b3%d0%bb%d0%b8%d1%88 9
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be 6
+%d0%bc%d0%b5%d1%80%d0%be%d0%bf%d1%80%d0%b8%d1%8f%d1%82%d0%b8%d1%8f 1
+%d0%b3%d0%b8%d0%bb%d0%b4%d1%81 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%bc 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b0%d1%8f 3
+%26 1
+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd 5
+%d0%90%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%bb%d0%b0%d0%b3%d0%b5%d1%80%d1%8f 1
+27 1
+%d0%94%d0%9e%d0%9b%d0%a6 1
+%d1%81%d1%82%d1%80%d0%b0%d0%bd%d1%8b 1
+%d0%be%d0%bb%d1%8c%d0%b3%d0%b0 2
+%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b8%d0%b9 1
+%d1%8d%d0%bd%d0%b4%d0%b3%d0%b8%d0%bb%d0%b4%d1%81 1
+%d1%8f%d0%b7%d1%8b%d0%ba%d0%be%d0%b2 1
+guild%60s 1
+%d0%b8%d0%bd%d0%be%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%bd%d1%8b%d1%85 1
+and 3
+%d0%b2%d0%b8%d0%b4%d0%b5 1
+%d0%b7%d0%b0 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%bc%d1%83 2
+%d0%b0%d0%bb%d0%b5%d0%ba%d1%81%d0%b5%d0%b5%d0%b2%d0%bd%d0%b0 1
+%d1%8d%d0%bd%d0%b4 1
+%d0%bd%d0%be%d1%82%d0%b5 1
+%d0%bf%d1%80%d0%b8%d0%b7%d0%bd%d0%b0%d1%8e%d1%82 1
+%d1%81%d0%be%d0%b1%d0%b5%d1%81%d0%b5%d0%b4%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d1%8f 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b5 1
+%d0%be%d0%b1%d1%83%d1%87%d0%b5%d0%bd%d0%b8%d0%b5 5
+%d1%8f%d0%b7%d1%8b%d0%ba%d0%b0 3
+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd%d0%b0%d1%86%d0%b8%d0%be%d0%bd%d0%bd%d1%8b%d0%b9 1
+city%26 1
+englishaccent.ru%2fsite%2fprograms 1
+%d0%b0%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80%d0%be%d0%b2%d0%bd%d0%b0 1
+%d0%90%d0%9a%d0%a6%d0%95%d0%9d%d0%a2 1
+%d1%81%d1%82%d0%be%d0%b8%d1%82 1
+2 1
+%d0%b1%d0%be%d0%bd%d0%b4%d0%b0%d1%80%d0%b5%d0%b2%d0%b0 2
+englishaccentmgn%40yandex.ru 1
+http 1
+%d0%b4%d0%b5%d1%82%d0%b5%d0%b9 1
+%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d0%b0 1
+centre 1
+%d0%a7%d0%9e%d0%a3 1
+%d1%86%d0%b5%d0%bd%d1%82%d1%80 3
+%d1%85%d1%8d%d0%bf%d0%bf%d0%b8 1
+%d0%98%d0%bd%d0%b3%d0%bb%d0%b8%d1%88 1
+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba%d0%b5%d1%82%d0%b5%d0%b2%d0%be%d1%81%d1%8f%d0%bd%d0%b0 1
+%d0%ba%d0%b0%d0%ba%d0%b8%d0%b5 1
+%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d1%8b%d0%b9 2
+%d1%81%d1%82%d0%be%d0%b8%d0%bc%d0%be%d1%81%d1%82%d1%8c 1
+%d1%81%d0%b8%d1%82%d0%b8 2
+%d0%bc%d0%b5%d1%81%d1%8f%d1%86 1
+guilds 5
+keet 1
+city%26guilds 3
+%d1%80%d0%b0%d0%b7%d0%b3%d0%be%d0%b2%d0%be%d1%80%d0%bd%d1%8b%d0%b9 2
+%d1%81%d0%b4%d0%b0%d1%82%d1%8c 1
+%d0%bb%d0%b8%d0%bd%d0%b3%d0%b2%d0%b8%d1%81%d1%82%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b8%d0%b9 1
+%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b 3
+englishaccent 1
+%d0%ba%d1%83%d1%80%d1%81%d0%b0 1
+%d0%bd%d0%b0 3
+city 4
+%d0%90%d0%9d%d0%93%d0%9b%d0%98%d0%99%d0%a1%d0%9a%d0%98%d0%99 1
+//englishaccent.ru/ 1
+27%2f2 2
+%d0%b4%d0%bb%d1%8f 3
+3 1
+%d0%b3%d0%be%d0%b4%d0%b0 2
+englishaccent.ru 1
+%d0%b1%d0%b5%d0%bd%d0%b5 1
+%d0%b0%d0%ba%d1%81%d0%b5%d0%bd%d1%82 1
+%d1%81%d0%ba%d0%be%d0%bb%d1%8c%d0%ba%d0%be 1
+%d1%81%d0%b0%d0%b9%d1%82 3
+%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d0%b8%d0%ba%d0%be%d0%b2 1
+patent 1
+%d1%85%d0%b0%d1%80%d0%b0%d0%ba%d1%82%d0%b5%d1%80%d0%b8%d1%81%d1%82%d0%b8%d0%ba%d0%b0 1
+%d1%82%d0%b5%d0%b2%d0%be%d1%81%d1%8f%d0%bd%d0%b0 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 1 210
+302 29 0
+500 3 46460
+404 562 5455990
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 73
+/sitemap.xml 1 -
+/admin/content/sitetree/ 1 -
+/robots.txt 415 -
+/cgi-bin/yabb/YaBB.pl 1 -
+/manager/ 1 -
+/admin.php 7 -
+/board/ 1 -
+/forum/ 2 http://englishaccent.ru/forum/
+/forums/ 1 -
+/news/new 1 -
+/admin/login.php 5 -
+/gallery/vk.com/club34926067 3 -
+/vb/ 1 -
+/gallery/vk.com/ 1 -
+/manager/templates/default/css/login-min.css 1 -
+/admin/index.php 2 -
+/wp-admin/ 1 -
+/js/).html($( 5 -
+/netcat/admin/ 1 -
+/comments/admin 1 -
+/xmlrpc.php 1 -
+/assets/c9c55599/).html( 5 -
+/manager/media/script/mootools/mootools.js 1 -
+/wp-content/ 1 -
+/wp-admin/config.php 1 -
+/node/ 1 -
+/cgi-bin/yabb2/YaBB.pl 1 -
+/bitrix/admin/index.php 5 -
+/smf/ 1 -
+/manager/templates/default/images/style/modx-logo-header.png 1 -
+/contact.html 1 -
+/netcat/admin/skins/default/css/style.css 1 -
+/phpbb/ 1 -
+/bitrix/js/main/core/core.css 1 -
+/images/cms/admin/mac/common/butterfly.png 1 -
+/login 1 -
+/wp-login.php 10 -
+/news/add 1 -
+/manager/media/style/MODxCarbon/images/misc/login-logo.png 1 -
+/manager/media/style/MODxCarbon/images/misc/logo.png 1 -
+/netcat/admin/skins/default/css/login.css 1 -
+/admin/ 2 -
+/manager/templates/default/images/restyle/headers.jpg 1 -
+/bitrix/themes/.default/images/auth_pict.gif 1 -
+/galleryvideo 1 -
+/apple-touch-icon.png 7 -
+/users/forget/ 1 -
+/teachers 1 -
+/modules/system/system.base.css 1 -
+/templates/system/css/system.css 1 -
+/language/en-GB/en-GB.xml 1 -
+/netcat/admin/skins/default/img/logo.png 1 -
+/modules/system/system.css 1 -
+/user/login/ 1 -
+/bitrix/themes/.default/adminstyles.css 1 -
+/js/'%20+%20(imgPath%20+%20reviews[i].img)%20+%20' 5 -
+/styles/skins/mac/design/css/style.css 1 -
+/users/registrate/ 1 -
+/apple-touch-icon-precomposed.png 7 -
+/user/ 4 -
+/administrator/index.php 9 -
+/wp-admin/images/wordpress-logo.png 1 -
+/engine/editor/css/content.css 1 -
+/vk.com/club34926067 4 -
+/admin 2 http://ENGLISHACCENT.RU/admin
+/manager/media/style/MODxCarbon/style.css 1 -
+/js/).html( 5 -
+/wp-admin/css/wp-admin.css 1 -
+/media/system/js/mootools.js 1 -
+/bitrix/admin/ 1 -
+/site/vk.com/club34926067 4 -
+/comment/admin 2 -
+/user/password/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 296
+46.167.112.201 302 302 16754239 20130806202757
+109.201.205.4 168 168 2867904 20130814203953
+91.207.9.226 105 105 1971270 20130831221544
+46.118.126.194 100 100 1904152 20130831053903
+46.119.118.152 96 96 1827186 20130830221522
+62.165.49.190 77 77 1049642 20130822092025
+178.137.93.32 48 48 850301 20130809103327
+91.227.244.205 48 48 2049154 20130830140619
+193.232.54.90 37 37 931366 20130827192847
+178.137.128.238 33 33 623607 20130827054221
+89.208.17.22 1 1 19090 20130825115423
+37.110.225.207 3 3 356881 20130827220756
+37.139.52.23 16 16 300072 20130830101940
+176.226.197.165 3 3 354343 20130814191332
+79.134.7.104 19 19 637831 20130826150520
+5.164.57.228 14 14 593432 20130830205832
+37.9.53.91 1 1 17012 20130804133130
+89.169.187.22 8 8 154978 20130830180952
+5.164.54.18 7 7 423839 20130807203603
+212.21.5.44 1 1 19090 20130820200136
+95.73.169.2 2 2 39100 20130801193925
+80.244.35.42 10 10 933854 20130826120804
+31.184.238.188 6 6 118890 20130831162849
+212.21.4.97 1 1 14746 20130830222020
+109.201.201.88 3 3 354343 20130809184308
+109.207.13.39 8 8 99260 20130802184128
+90.151.229.96 4 4 372085 20130810140335
+109.195.208.18 12 12 1245178 20130814092156
+208.43.225.85 12 12 216235 20130828072940
+109.201.205.71 4 4 369392 20130825212619
+79.134.28.131 6 6 705136 20130804185805
+84.240.30.56 2 2 34362 20130801131235
+84.42.3.3 1 1 19090 20130816055238
+202.98.123.126 1 1 18787 20130811104812
+46.200.50.236 2 2 29492 20130829125211
+46.167.70.186 16 16 870515 20130805172905
+212.33.255.150 2 2 34024 20130805155032
+79.134.24.159 1 1 19090 20130821181803
+46.167.125.36 1 1 14746 20130829153828
+109.201.212.188 1 1 18787 20130814133130
+213.87.241.23 6 6 398979 20130829090238
+109.201.207.137 1 1 14746 20130827094728
+65.55.213.33 1 1 21325 20130831174230
+109.201.223.187 3 3 354646 20130828185248
+109.201.213.226 3 3 353298 20130812191025
+212.21.11.250 9 9 178014 20130814204145
+46.167.107.93 1 1 18787 20130809063448
+217.118.83.239 5 5 112482 20130815151942
+46.167.124.229 8 8 492547 20130825202549
+46.167.83.126 12 12 200517 20130804100740
+89.178.190.94 1 1 19090 20130824184221
+212.164.188.251 3 3 356881 20130818200347
+131.253.24.61 1 1 13411 20130827220101
+109.201.210.248 1 1 19090 20130826132350
+212.21.21.163 3 3 352568 20130804193939
+46.167.78.79 3 3 352568 20130805200927
+46.167.121.196 4 4 366709 20130830125850
+46.167.78.103 3 3 351523 20130804192543
+199.30.24.63 4 4 1436102 20130814060943
+46.167.76.25 5 5 379889 20130814094327
+46.242.25.172 1 1 0 20130804093227
+46.167.70.85 3 3 352568 20130801094508
+212.21.30.137 6 6 393724 20130823225137
+95.179.68.62 3 3 356881 20130816120850
+80.239.243.24 24 24 434984 20130811110232
+79.134.30.97 1 1 14746 20130829081248
+178.159.31.114 11 11 844471 20130829133140
+178.46.162.197 8 8 427059 20130831093543
+46.167.119.222 1 1 17012 20130801133635
+212.248.24.130 3 3 356881 20130812171731
+46.105.59.74 1 1 0 20130831160450
+212.21.14.143 3 3 354646 20130824214343
+178.18.98.152 13 13 1119474 20130823234950
+109.206.133.72 3 3 356881 20130808162058
+65.55.213.34 1 1 46693 20130825074950
+46.167.66.36 1 1 18787 20130812160901
+176.57.141.254 1 1 17012 20130803094743
+80.244.35.146 19 19 461692 20130829123040
+46.167.81.157 1 1 18787 20130810202018
+62.149.1.75 1 1 19090 20130823191528
+193.106.136.58 6 6 113631 20130825024353
+192.241.137.164 2 2 36102 20130817085517
+79.175.33.230 8 8 471815 20130813131416
+46.188.9.226 4 4 71778 20130814010909
+178.18.96.81 1 1 19090 20130825152826
+79.134.7.175 6 6 410694 20130812092054
+109.201.192.6 1 1 14746 20130828182637
+109.195.211.13 16 16 570551 20130815123030
+178.234.191.203 3 3 356881 20130820160333
+212.21.27.3 3 3 354646 20130815123012
+109.201.215.105 1 1 18787 20130807091059
+173.192.235.226 12 12 227833 20130809185621
+79.134.5.15 4 4 365539 20130802131340
+212.21.12.163 3 3 78252 20130831132258
+89.19.103.233 1 1 21325 20130808214421
+217.23.12.101 1 1 17012 20130801214301
+31.204.100.10 4 4 371627 20130818020817
+194.165.18.143 7 7 407118 20130819211339
+95.80.110.10 3 3 354646 20130830091909
+109.201.202.80 3 3 53813 20130831224249
+88.205.210.230 9 9 471558 20130829172747
+2a00:bdc0:2:f:2::17c4 1 1 19090 20130827121811
+46.167.66.10 3 3 354646 20130824190909
+83.136.86.225 2 2 38180 20130820084552
+79.134.3.201 3 3 354646 20130827084907
+50.19.142.217 7 7 163362 20130825070333
+46.167.74.107 1 1 19090 20130815171944
+109.201.219.130 1 1 14746 20130827091813
+37.115.112.142 9 9 171810 20130831053946
+80.244.42.224 10 10 934778 20130827100246
+212.21.2.214 4 4 375668 20130807121019
+178.18.104.28 13 13 526475 20130831200949
+31.162.193.197 5 5 382924 20130810194101
+37.115.112.210 9 9 153108 20130805022806
+46.167.66.109 7 7 442850 20130815100553
+85.255.189.253 3 3 348808 20130828113911
+109.201.214.235 1 1 17012 20130805144153
+128.71.142.102 3 3 354646 20130820110437
+109.201.200.86 8 8 419500 20130805143001
+46.167.98.23 1 1 14746 20130828200621
+46.98.152.200 1 1 19090 20130815015608
+46.148.129.31 1 1 19090 20130829231514
+95.110.67.122 5 5 688854 20130814152406
+109.201.221.16 3 3 354343 20130811101706
+199.30.24.195 4 4 1436102 20130818110210
+109.120.157.179 12 12 224318 20130830175632
+79.134.26.59 1 1 18787 20130812112746
+91.121.241.147 1 1 19090 20130826194321
+109.201.210.97 10 10 480103 20130823161248
+46.167.102.198 1 1 19090 20130825103609
+176.31.14.28 4 4 93591 20130814124540
+79.134.0.1 5 5 387134 20130815134143
+54.226.207.173 1 1 19090 20130824011923
+193.16.210.252 11 11 507366 20130830171536
+131.253.36.202 1 1 46678 20130828010707
+178.18.104.59 3 3 354646 20130829125506
+94.24.160.182 1 1 18787 20130812222756
+178.137.128.12 18 18 343620 20130824075208
+109.201.193.133 1 1 18787 20130811160020
+46.167.80.57 3 3 354646 20130830093609
+65.55.215.248 1 1 17742 20130820151328
+109.201.218.43 3 3 354646 20130821184420
+213.110.133.221 14 14 257736 20130827001945
+46.167.90.207 1 1 18761 20130806191930
+88.205.152.134 4 4 368044 20130810101555
+46.167.118.50 3 3 354646 20130829074618
+109.201.195.161 1 1 13835 20130830130046
+109.207.13.43 6 6 116794 20130811180043
+2a01:4f8:150:82a2::2 2 2 29983 20130802211124
+178.18.111.225 6 6 393082 20130823122128
+79.134.5.163 18 18 596236 20130813083659
+79.134.24.217 4 4 366188 20130808100851
+128.73.48.77 1 1 19090 20130829190453
+79.120.76.92 1 1 18787 20130812172608
+217.212.230.102 1 1 18787 20130811120211
+46.167.64.68 1 1 17012 20130801090155
+188.72.220.25 16 16 287604 20130819050857
+212.21.29.218 1 1 19090 20130815091747
+95.134.16.113 2 2 38180 20130821221625
+212.21.31.51 1 1 18787 20130809180639
+213.87.240.57 1 1 14746 20130823094107
+31.204.100.143 3 3 356881 20130816213635
+178.46.247.158 6 6 398624 20130815072518
+85.255.191.0 11 11 537124 20130828123547
+79.134.31.105 7 7 413807 20130824145152
+46.167.72.29 1 1 18787 20130813124255
+109.195.222.200 6 6 390941 20130825190345
+31.184.238.82 2 2 38513 20130818144554
+46.167.111.37 2 2 40415 20130827125355
+94.75.23.53 13 13 527455 20130827170537
+79.134.6.165 4 4 372388 20130829140407
+109.194.122.67 1 1 19090 20130828074533
+109.207.13.44 8 8 113870 20130816063645
+79.134.29.141 2 2 29492 20130827114103
+46.167.106.71 1 1 14746 20130828114754
+212.21.29.239 1 1 17012 20130802181530
+37.139.20.171 1 1 19090 20130817230416
+31.184.238.99 6 6 123341 20130829115432
+109.201.214.201 1 1 18787 20130810190047
+178.159.26.1 7 7 716524 20130830203424
+109.201.193.243 3 3 350302 20130829205614
+85.26.232.32 3 3 352568 20130802172648
+95.58.119.164 3 3 356881 20130820172923
+109.201.193.137 16 16 471652 20130804152706
+46.118.152.23 33 33 588021 20130809213211
+178.159.22.226 3 3 353298 20130825101634
+46.167.67.118 3 3 52926 20130826213050
+92.245.53.135 6 6 558352 20130827104946
+178.18.109.172 1 1 17012 20130801092602
+109.201.206.11 3 3 350302 20130825204357
+109.201.201.35 1 1 18787 20130808180749
+46.167.68.136 1 1 18787 20130813153653
+193.106.136.43 3 3 57270 20130828225536
+109.201.199.14 7 7 406572 20130817130034
+79.134.6.191 9 9 465877 20130820082546
+46.167.93.142 1 1 19090 20130815113401
+178.18.101.255 4 4 373736 20130823092105
+217.118.83.190 3 3 347046 20130821190720
+94.75.7.148 7 7 139916 20130828213320
+212.87.179.12 1 1 19090 20130827194424
+5.164.51.39 22 22 660107 20130812125058
+212.21.28.99 3 3 350302 20130830182828
+109.201.200.35 1 1 19090 20130825083847
+46.167.113.13 15 15 566328 20130823084945
+62.141.45.27 1 1 18787 20130810225940
+178.140.172.164 2 2 35799 20130807160628
+31.204.100.106 4 4 403556 20130826135801
+46.167.103.146 1 1 18787 20130811085758
+188.92.76.167 2 2 0 20130828030717
+193.106.136.50 3 3 57270 20130819090728
+193.106.136.63 3 3 51036 20130801180037
+109.207.13.46 1 1 46675 20130830125232
+212.116.111.101 7 7 440044 20130829173209
+95.59.41.84 1 1 19090 20130827082730
+178.159.31.247 13 13 537329 20130827121813
+5.45.192.72 13 13 509789 20130815145905
+208.43.225.84 3 3 40372 20130810115504
+212.21.30.150 1 1 19090 20130819181301
+46.167.97.238 3 3 350302 20130831162653
+77.233.174.169 6 6 405463 20130829090059
+178.18.97.129 4 4 362749 20130810135510
+141.35.59.231 3 3 354646 20130815123922
+46.167.86.17 1 1 19090 20130824211142
+46.167.106.119 3 3 51036 20130804165626
+46.167.64.85 10 10 485104 20130809114216
+46.72.131.190 3 3 356881 20130809235909
+79.134.11.227 9 9 630890 20130814140910
+46.4.34.9 1 1 18787 20130809122952
+131.253.26.243 1 1 18787 20130811094823
+94.153.10.89 1 1 19090 20130827115138
+79.139.227.254 2 2 38266 20130822204043
+5.8.82.130 3 3 348701 20130811213952
+193.106.136.42 3 3 57270 20130821054400
+109.195.221.30 2 2 26236 20130808191239
+54.211.57.16 1 1 19090 20130827042524
+212.87.185.118 1 1 19090 20130826183028
+212.21.22.115 12 12 490965 20130802084924
+65.55.218.34 1 1 13252 20130828100503
+95.165.197.114 4 4 368694 20130828010226
+54.217.231.253 1 1 19090 20130817143327
+93.74.161.160 1 1 19090 20130818145536
+109.201.205.85 3 3 354646 20130821205305
+217.69.133.186 2 2 38180 20130821041509
+46.167.100.114 10 10 797835 20130820101016
+46.167.105.241 1 1 19090 20130822122602
+66.220.7.244 1 1 19090 20130815104221
+79.134.2.206 2 2 179734 20130831061614
+83.149.34.178 10 10 443008 20130828165129
+46.167.113.63 16 16 932265 20130826111658
+46.62.6.231 3 3 347401 20130827074903
+46.167.118.193 11 11 523432 20130829185615
+79.134.28.177 1 1 14746 20130827154517
+212.21.29.43 1 1 19090 20130826105313
+193.106.136.61 2 2 37574 20130810110042
+46.160.74.23 1 1 11370 20130805023456
+193.47.148.33 4 4 363250 20130823104227
+217.118.83.142 3 3 354646 20130815212544
+46.167.117.171 1 1 18787 20130813081908
+193.16.210.34 4 4 366491 20130828134102
+65.55.213.46 1 1 17318 20130828093823
+188.17.218.112 14 14 550953 20130828201353
+85.142.26.224 6 6 56967 20130826102544
+65.55.213.60 1 1 13411 20130828023113
+109.201.214.9 1 1 19090 20130817114622
+176.215.194.215 11 11 470505 20130802075529
+46.167.126.137 1 1 19090 20130825092722
+213.87.241.168 6 6 395246 20130813145936
+91.200.14.90 6 6 114540 20130830072140
+131.253.24.142 1 1 13835 20130811053127
+109.201.210.209 10 10 486870 20130826144524
+62.165.51.13 5 5 688854 20130828074124
+109.201.198.217 7 7 441323 20130827173057
+217.118.83.131 9 9 434351 20130817195332
+178.159.18.74 3 3 354646 20130826092304
+80.244.36.95 6 6 88922 20130808104357
+89.189.142.158 3 3 356881 20130829134134
+109.201.204.177 5 5 387816 20130830233030
+195.242.218.133 19 19 352580 20130829064959
+46.167.72.169 1 1 19090 20130819093337
+109.201.200.89 1 1 14746 20130828123225
+193.106.136.60 3 3 57270 20130816073652
+109.201.212.28 3 3 354646 20130817154055
+178.159.24.58 3 3 354646 20130824113909
+212.21.23.47 4 4 369580 20130802202214
+212.21.13.249 1 1 18787 20130808180823
+193.106.136.37 3 3 57270 20130827003718
+109.201.219.127 1 1 14746 20130829114857
+212.21.15.29 2 2 34024 20130801192937
+109.201.221.37 14 14 512499 20130816195953
+31.204.98.87 4 4 378206 20130810192401
+212.21.12.118 1 1 18787 20130809113045
+91.239.215.9 15 15 286288 20130814224547
+193.106.136.59 6 6 114540 20130831204645
+211.138.156.199 1 1 19090 20130822225340
+82.145.210.182 1 1 19090 20130815130241
+46.167.80.54 3 3 353298 20130827142748
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20130801 38 38 953402 17
+20130802 53 53 2331508 13
+20130803 21 21 357325 8
+20130804 70 70 2574744 20
+20130805 44 44 1926145 12
+20130806 317 317 17027080 6
+20130807 27 27 1100099 9
+20130808 43 43 1657741 15
+20130809 51 51 1856262 14
+20130810 34 34 2094025 12
+20130811 66 66 1813480 17
+20130812 67 67 2535623 15
+20130813 42 42 1523537 14
+20130814 252 252 8481448 18
+20130815 87 87 3981708 22
+20130816 51 51 1779201 12
+20130817 41 41 1615549 11
+20130818 31 31 2546743 10
+20130819 29 29 827098 11
+20130820 56 56 2846502 17
+20130821 39 39 1629270 15
+20130822 109 109 1660863 12
+20130823 72 72 3655843 16
+20130824 34 34 1821365 13
+20130825 83 83 3717342 20
+20130826 72 72 3628430 19
+20130827 143 143 6172970 32
+20130828 120 120 5131215 28
+20130829 117 117 6220726 26
+20130830 92 92 4751809 28
+20130831 51 51 1965353 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 23
+15mn-30mn 15
+2mn-5mn 22
+30s-2mn 35
+0s-30s 386
+30mn-1h 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 60
+/ 1041 19139304 395 308
+/css/font/PTF75F_W.woff 201 29076564 0 7
+/css/font/PTF55F_W.woff 194 30259776 0 50
+/site/programs 153 2233322 26 37
+/site/about 83 1461936 30 11
+/news 68 866848 3 10
+/site/teachers 60 821225 5 12
+/gallery 59 2607569 1 12
+/site/ChildrenProgram 54 628980 3 11
+/site/CityandGuilds 52 1101800 16 11
+/comment/update/2 1 12953 0 0
+/css/font/PTF75F_W.ttf 4 1311376 2 0
+/galleryPhoto/update/101 1 12175 0 0
+/css/font/PTF55F_W.svg 2 749466 0 2
+/galleryPhoto/update/100 1 12175 0 0
+/css/font/PTZ56F_W.eot 15 644928 0 1
+/gallery/ 1 46678 1 1
+/site/contact 12 81406 0 0
+/news/update/11 2 26580 0 0
+/galleryPhoto/update/9 1 12167 0 0
+/news/delete/1 1 0 0 0
+/site/WinterCamp 5 57575 1 2
+/css/font/PTF55F_W.eot 15 569900 0 0
+/news/update/10 1 13113 0 0
+/site/corp 19 265137 1 3
+/site/AdultProgram 30 334050 1 6
+/comment/update/1 1 12973 0 0
+/news/delete/6 1 0 0 0
+/galleryPhoto/delete/101 1 0 0 0
+/comment 1 15575 0 0
+/gallery/admin 8 157954 0 0
+/news/11 3 35958 0 0
+/galleryPhoto/create 4 49060 0 0
+/news/delete/9 1 0 0 0
+/gallery/create 5 59700 0 0
+/gallery/delete/13 1 0 0 0
+/news/update/8 2 25704 0 0
+/css/font/PTF55F_W.ttf 4 1387584 0 0
+/comment/index 7 109374 0 0
+/css/font/PTF75F_W.svg 2 773258 0 0
+/galleryVideo 32 550600 2 3
+/site/login 3 38907 0 0
+/news/7 4 46032 0 0
+/css/font/PTZ55F_W.eot 15 650208 0 0
+/galleryPhoto/admin 13 251303 0 0
+/news/9 1 11791 0 0
+/css/font/PTF75F_W.eot 15 515976 0 0
+/css/font/PTF56F_W.eot 15 605336 0 0
+/site/engcamps 25 320150 1 0
+/site/camps 41 536430 7 3
+/gallery/index 14 602615 1 5
+/news/6 1 11497 0 0
+/news/update/7 3 38436 0 0
+/news/10 1 11809 0 0
+/index.php 2 37610 0 0
+/news/create 13 165733 0 0
+/news/index 10 125976 0 1
+/css/font/PTF76F_W.eot 15 516396 0 0
+/news/admin 9 138814 0 0
+/news/8 3 34644 0 0
+END_SIDER

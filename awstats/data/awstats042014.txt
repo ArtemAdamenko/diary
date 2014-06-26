@@ -1,0 +1,558 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201404 will be lost/reset.
+# Last config file used to build this data file was ./awstats.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1934                
+POS_TIME 2612                
+POS_VISITOR 11365               
+POS_DAY 14481               
+POS_DOMAIN 3395                
+POS_LOGIN 3706                
+POS_ROBOT 3861                
+POS_WORMS 4420                
+POS_EMAILSENDER 4551                
+POS_EMAILRECEIVER 4694                
+POS_SESSION 14720               
+POS_SIDER 14926               
+POS_FILETYPES 4829                
+POS_OS 5029                
+POS_BROWSER 5222                
+POS_SCREENSIZE 5935                
+POS_UNKNOWNREFERER 6009                
+POS_UNKNOWNREFERERBROWSER 6162                
+POS_ORIGIN 6244                
+POS_SEREFERRALS 6384                
+POS_PAGEREFS 6554                
+POS_SEARCHWORDS 7461                
+POS_KEYWORDS 9186                
+POS_MISC 2276                
+POS_ERRORS 10247               
+POS_CLUSTER 3562                
+POS_SIDER_404 10386               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140407031019 114 27528 15416901341518
+FirstTime 20140401020619
+LastTime 20140407031019
+LastUpdate 20140407031123 0 0 0 0 0
+TotalVisits 124                 
+TotalUnique 74                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 74                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 17 907118 13 15 143987
+1 7 7 131012 11 12 180932
+2 5 5 95177 7 7 95524
+3 13 13 1008047 6 6 67126
+4 1 1 19305 3 3 94489
+5 7 7 132564 6 6 131209
+6 1 1 19305 9 9 154404
+7 3 3 46763 6 8 71518
+8 48 48 1384778 15 19 182632
+9 33 33 1580140 3 12 56497
+10 69 69 2965935 16 26 296926
+11 31 31 1234122 16 27 256935
+12 8 8 450918 7 10 95524
+13 37 37 1661714 9 15 138908
+14 175 175 4350377 22 31 325371
+15 104 104 2048781 19 27 216753
+16 54 54 1199693 26 30 105137
+17 55 55 2583045 28 30 186899
+18 24 24 2301955 3 6 34889
+19 35 35 2082153 5 10 68971
+20 11 11 481317 5 7 65508
+21 12 12 497813 12 14 211283
+22 11 11 253655 10 10 237682
+23 71 71 1181316 25 28 134719
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 378 378 15808200
+ru 365 365 7387121
+ip 66 66 3795803
+gb 12 12 852002
+eu 8 8 420364
+de 3 3 353513
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 30 540264 20140406201303 0
+yandex 26 734346 20140407012325 0
+turnitinbot 12 279346 20140405222305 0
+robot 5 123302 20140406130353 0
+bot[\s_+:,\.\;\/\\-] 4 73789 20140406164429 0
+mj12bot 4 71855 20140404104737 0
+exabot 2 31390 20140406103724 0
+favicon 1 19305 20140402011011 0
+libwww 1 19305 20140401175718 0
+[\s_+:,\.\;\/\\-]bot 1 19305 20140401140818 0
+sogou 1 19305 20140402001017 0
+crawl 1 19305 20140407020339 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+eot 30 4378430 0 0
+php 1 19341 0 0
+html 130 2545881 0 0
+ttf 2 674740 0 0
+desc 2 32867 0 0
+Unknown 608 10808814 0 0
+woff 57 9395568 0 0
+svg 2 761362 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+linuxandroid 6
+winxp 65
+winlong 20
+win2000 1
+linuxubuntu 7
+win98 1
+linux 395
+winvista 33
+macosx 10
+winme 15
+winunknown 7
+win2003 1
+Unknown 3
+win2008 268
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 40
+msie6.0 39
+firefox28.0 94
+firefox15.0 2
+chrome12.0.742.100 1
+firefox26.0 302
+chrome33.0.1750.149 12
+android 3
+chrome34.0.1847.3 3
+epiphany 1
+opera9.00 1
+chrome28.0.1468.0 1
+opera9.80 58
+chrome24.0.1312.71 19
+msie8.0 4
+netscape4.76 1
+chrome32.0.1700.102 22
+msie7.0 29
+chrome13.0.766.0 3
+chrome33.0.1750.154 103
+chrome33.0.1750.146 10
+msie9.0 16
+firefox27.0 7
+opera9.53 1
+chrome17.0.963.66 1
+chrome27.0.1453.110 13
+msie5.5 1
+chrome32.0.1700.107 9
+mozilla 7
+chrome10.0.649.0 1
+chrome33.0.1750.117 10
+chrome11.0.678.0 1
+firefox3.0.6 4
+chrome32.0.1700.76 15
+msie10.0 15
+chrome33.0.1750.170 3
+safari4.0.4 6
+firefox3.6.12 2
+firefox3.6.3 1
+chrome23.0.1271.97 8
+safari 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20140406224005
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 90 90
+From1 2 2
+From2 43 43
+From3 32 32
+From4 665 665
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 10 10
+yandex 33 33
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 28
+http://ddlmega.net 5 5
+http://www.elfcomp.ru 1 1
+http://www.med-re.ru 1 1
+http://forumwms.ru 1 1
+http://engsol.ru 1 1
+http://www.marialazareva.ru 1 1
+http://poiskvorle.ru 1 1
+http://www.beteco.ru 1 1
+http://qpi24.ru 1 1
+http://www.fecit-studio.ru 1 1
+http://www.zapah-otechestva.ru 1 1
+http://www.filmstock.ru 1 1
+http://www.ic-spectr.ru 1 1
+http://vc-agrad.ru 1 1
+http://www.hitechcomm.ru 1 1
+http://sav74.ru 1 1
+http://petr-savel.ru 1 1
+http://www.magiccone.ru 1 1
+http://www.miroteli.ru 1 1
+http://www.hostschool.ru 1 1
+http://voytenkoproduction.ru 1 1
+http://www.avpcgrup.ru 1 1
+http://www.dakkkim.ru 1 1
+http://go.mail.ru/search 1 1
+http://www.riar-anapa.ru 1 1
+http://www.industar-nv.ru 1 1
+http://grtechnologies.ru 1 1
+http://www.artfotografia.ru 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 14
+city+and+guilds+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd 4
+city+%26+guilds 4
+city%26guilds 4
+%f0%e0%e7%e3%ee%e2%ee%f0%ed%fb%e9+%ed%e5%ec%e5%f6%ea%e8%e9+%e4%eb%ff+%f8%ea%ee%eb%fc%ed%e8%ea%ee%e2 3
+%d0%81%d1%80%d1%87%d1%83%d1%8e%d1%82%d1%8e%d0%81%d1%8d%e2%88%9a%d1%89+%d1%8d%d1%85%d1%8c%d1%85%d0%8e%d1%8a%d1%88%d1%89+%d1%84%d1%8b%c2%a0+%c2%b0%d1%8a%d1%8e%d1%8b%e2%84%96%d1%8d%d1%88%d1%8a%d1%8e%d1%82 2
+%eb%e5%f2%ed%e8%e5+%ea%f3%f0%f1%fb+%e2+%e2%e5%eb%e8%ea%ee%e1%f0%e8%f2%e0%ed%e8%e8 2
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+7+3519+476949 1
+city+dnd+giulds+%d0%bf%d1%80%d0%be%d0%b9%d1%82%d0%b8+%d1%82%d0%b5%d1%81%d1%82 1
+city%26guilds+%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d1%8f 1
+%d1%81%d0%b5%d1%82%d0%b5%d0%b2%d0%be%d0%b9+%d0%b3%d0%be%d1%80%d0%be%d0%b4+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82 1
+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d1%88%d0%ba%d0%be%d0%bb%d0%b0+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 1
+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd+city+and+guilds 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 33
+city 10
+guilds 9
+%d1%8d%d0%ba%d0%b7%d0%b0%d0%bc%d0%b5%d0%bd 5
+city%26guilds 5
+and 5
+%d0%b0%d0%ba%d1%86%d0%b5%d0%bd%d1%82 5
+%26 4
+%d0%bc%d0%b0%d0%b3%d0%bd%d0%b8%d1%82%d0%be%d0%b3%d0%be%d1%80%d1%81%d0%ba 4
+%e4%eb%ff 3
+%f0%e0%e7%e3%ee%e2%ee%f0%ed%fb%e9 3
+7 1
+%d1%81%d0%b5%d1%82%d0%b5%d0%b2%d0%be%d0%b9 1
+%e2%e5%eb%e8%ea%ee%e1%f0%e8%f2%e0%ed%e8%e8 2
+%c2%b0%d1%8a%d1%8e%d1%8b%e2%84%96%d1%8d%d1%88%d1%8a%d1%8e%d1%82 2
+%ed%e5%ec%e5%f6%ea%e8%e9 3
+%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d1%8f 1
+%d0%bf%d1%80%d0%be%d0%b9%d1%82%d0%b8 1
+3519 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d0%b9 3
+%f8%ea%ee%eb%fc%ed%e8%ea%ee%e2 3
+%d1%82%d0%b5%d1%81%d1%82 1
+%d1%84%d1%8b%c2%a0 2
+%e2 2
+476949 1
+giulds 1
+%d0%81%d1%80%d1%87%d1%83%d1%8e%d1%82%d1%8e%d0%81%d1%8d%e2%88%9a%d1%89 2
+%d1%88%d0%ba%d0%be%d0%bb%d0%b0 2
+%d1%8d%d1%85%d1%8c%d1%85%d0%8e%d1%8a%d1%88%d1%89 2
+%ea%f3%f0%f1%fb 2
+%eb%e5%f2%ed%e8%e5 2
+%d0%b3%d0%be%d1%80%d0%be%d0%b4 1
+dnd 1
+%d0%b0%d0%bd%d0%b3%d0%bb%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b3%d0%be 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 11 118343
+302 72 0
+500 7 283878
+400 2 21366
+404 110 1179419
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 20
+/apple-touch-icon-precomposed.png 4 -
+/asd 1 -
+/%3Cbr%3Esda 1 -
+/robots.txt 74 -
+/n%D1%8Bews%D1%8B 1 -
+/apple-touch-icon.png 4 -
+/admin.php 4 -
+/script 1 -
+/administrator/index.php 1 -
+/diary/users/adminArray 1 http://englishaccent.ru/diary/users/rates/id/34
+/news%D1%8B 1 -
+/gallery/vk.com/club34926067 1 -
+/%3Cscript%3Ealert('a') 1 -
+/%3Cscript%3E 1 -
+/administrator/ 4 -
+/diary/users/adminUsers%5Blogin%5D=&Users%5BsecondName%5D=&Users%5Bname%5D=&Users%5BthirdName%5D=%D0%B0%D0%BB%D0%B5%D0%BA&Users%5Bgroup%5D=&Users%5Bemail%5D=&Users%5Brole%5D= 1 http://englishaccent.ru/diary/users/rates/id/34
+/wp-login.php 6 -
+/diary/users/view/id/14 1 -
+/as 1 -
+/diary/news 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 74
+195.98.83.236 340 340 6409182 20140404144607
+109.172.55.118 73 73 1513241 20140406005836
+91.200.14.91 62 62 1208610 20140405221107
+109.195.210.13 50 50 1494234 20140403132917
+31.207.178.249 21 21 288592 20140402162830
+176.108.196.108 18 18 676207 20140403114731
+86.104.134.169 15 15 374431 20140406094210
+2a01:4f8:140:632f::2 14 14 312208 20140403100944
+5.79.239.54 12 12 589438 20140404190121
+109.173.63.184 9 9 911866 20140405192129
+109.62.241.223 1 1 19341 20140402132428
+212.164.99.62 3 3 357096 20140401195708
+46.167.89.28 3 3 354861 20140404212740
+107.181.70.5 8 8 153630 20140403134521
+46.167.92.55 3 3 353513 20140401142329
+95.26.52.201 7 7 887746 20140406103324
+89.178.13.56 1 1 21540 20140404221731
+178.65.78.136 1 1 17533 20140405112954
+2a01:4f8:a0:74c4::2 1 1 19305 20140403195423
+109.187.175.198 6 6 405657 20140406105228
+178.44.161.240 6 6 410967 20140403205509
+94.154.222.2 2 2 38610 20140403114949
+213.87.249.195 1 1 14070 20140406183550
+193.16.208.3 3 3 353513 20140402085725
+78.25.121.131 3 3 357096 20140403131215
+188.165.216.16 2 2 28241 20140403213244
+176.193.150.85 1 1 13163 20140403070759
+95.221.3.173 1 1 21540 20140403070217
+95.221.20.33 8 8 918766 20140402185449
+31.207.177.250 1 1 19305 20140404115702
+213.87.249.131 3 3 42210 20140406173631
+37.115.204.133 2 2 32943 20140406095501
+109.201.194.55 3 3 353513 20140405124415
+178.65.66.91 4 4 374629 20140404101935
+2.95.134.55 4 4 378636 20140404194848
+88.150.210.218 2 2 35914 20140405021053
+208.43.248.248 3 3 54458 20140402233718
+89.178.20.27 1 1 21540 20140406010750
+213.87.241.223 2 2 28140 20140406214304
+109.234.156.66 6 6 115830 20140407021712 20140407021712 /
+208.43.251.182 3 3 54458 20140401055118
+188.64.170.190 2 2 19305 20140406091231
+37.190.44.221 4 4 372057 20140406004614
+213.87.249.148 3 3 353513 20140402133958
+213.87.249.249 5 5 70350 20140402215811
+178.65.69.22 3 3 49664 20140401154245
+208.43.243.245 3 3 54458 20140401162721
+128.0.164.199 2 2 40845 20140401135530
+46.149.111.248 5 5 96525 20140406194147
+5.164.58.147 6 6 405590 20140403092703
+109.200.159.118 5 5 96525 20140404105727
+213.129.115.148 4 4 372818 20140403100716
+46.167.112.167 6 6 394249 20140401175113
+178.140.172.164 1 1 19305 20140405005516
+109.187.68.136 7 7 443256 20140401110533
+208.115.111.73 2 2 124458 20140406224005
+213.87.248.207 5 5 70350 20140403220902
+213.87.248.85 3 3 42210 20140401210727
+128.69.85.248 1 1 12060 20140406010750
+208.115.113.89 1 1 13467 20140405165401
+69.175.100.69 5 5 96905 20140404001033
+212.21.28.16 9 9 498489 20140406161320
+212.21.9.222 3 3 353513 20140402093520
+89.178.28.145 7 7 897226 20140405184413
+77.232.10.214 3 3 357096 20140406141428
+2a01:4f8:160:32e6::2 1 1 19305 20140404211626
+199.30.24.254 4 4 1436102 20140405170828
+95.221.21.116 8 8 918766 20140402033119
+176.118.116.232 4 4 413650 20140406141259
+178.18.106.143 4 4 378636 20140406154416
+176.118.113.255 1 1 62220 20140403104710
+178.65.70.102 2 2 30696 20140406151752
+79.165.171.218 1 1 13163 20140407031019 20140407031019 /site/engcamps
+208.43.245.245 3 3 54458 20140402133231
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20140401 199 199 4876104 17
+20140402 278 278 7172407 24
+20140403 145 145 4876457 29
+20140404 94 94 3355594 17
+20140405 42 42 3956174 16
+20140406 72 72 4347799 19
+20140407 2 2 32468 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 5
+0s-30s 95
+30s-2mn 6
+15mn-30mn 3
+2mn-5mn 4
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 75
+/diary/users/admin 202 3650373 4 4
+/ 129 2483658 55 47
+/diary/users/rates/id/34 65 1207539 0 0
+/diary/default/login 41 556334 0 1
+/site/CityandGuilds 33 710820 19 13
+/css/font/PTF75F_W.woff 29 4498032 0 2
+/css/font/PTF55F_W.woff 28 4897536 0 7
+/site/teachers 27 379890 10 12
+/site/about 27 484839 13 5
+/diary 21 227064 0 1
+/css/font/PTF75F_W.ttf 1 327844 1 0
+/css/font/PTZ56F_W.eot 5 806160 0 2
+/diary/users/rates/id/40 2 41548 0 0
+/css/font/PTF55F_W.eot 5 712375 0 1
+/diary/users/rates/id/37 2 36992 0 0
+/diary/users/index 2 25088 0 0
+/diary/users/view/id/41 1 11772 0 0
+/diary/users/view/id/37 3 35090 0 0
+/diary/users/rates/id/41 4 77468 0 0
+/diary/users/view/id/36 1 11630 0 0
+/diary/users/rates/id/44 6 120552 0 0
+/diary/users/create 16 210192 0 0
+/diary/users/rates/id/38 1 18524 0 0
+/diary/default/back 4 17361 0 0
+/diary/users/admin/Users_page/2 2 31350 0 0
+/diary/users/rates/id/45 5 92620 0 1
+/diary/users/rates/id/36 3 55530 0 0
+/diary/users/admin/Users_sort/thirdName 1 15769 0 0
+/diary/users/admin/Users_page/2/id/40 1 15771 0 0
+/diary/users/update/id/34 2 26718 0 0
+/diary/subjects/admin 12 198308 0 0
+/css/font/PTF75F_W.svg 1 386629 0 0
+/galleryVideo 9 157797 2 3
+/diary/users/deleteRate/id/108 1 1 0 0
+/css/font/PTZ55F_W.eot 5 812760 0 2
+/diary/users/update/id/37 1 13317 0 0
+/css/font/PTF75F_W.eot 5 644970 0 0
+/site/engcamps 9 120382 4 4
+/diary/users/rates/id/39 1 18524 0 0
+/diary/users/admin/id/40 1 21769 0 0
+/diary/users/rates/id/42 2 37048 0 0
+/diary/users/admin/Users_page/2/id/rates/id/rates/id/rates/id/40 1 15852 0 0
+/css/font/PTF55F_W.svg 1 374733 0 1
+/diary/default/dairy 3 38392 0 1
+/diary/users/admin/Users_sort/rates/id/34 2 32923 0 0
+/gallery/ 1 62223 0 0
+/diary/users/back 16 256348 0 0
+/diary/users/update/id/36 2 26288 0 0
+/diary/subjects/view/id/1 1 11352 0 0
+/news 7 111118 1 0
+/site/corp 3 42789 0 0
+/site/AdultProgram 1 11705 0 0
+/site/programs 15 227436 5 5
+/gallery 12 746640 2 3
+/diary/users/rates/id/43 2 37048 0 0
+/diary/users/admin/Users_page/2/id/rates/id/rates/id/40 1 15825 0 0
+/diary/users/admin/Users_sort/thirdName.desc 2 32867 0 0
+/diary/users/admin/Users_sort/rates/id/rates/id/34 1 15835 0 0
+/diary/users/admin/Users_page/2/id/rates/id/40 1 15798 0 0
+/css/font/PTF55F_W.ttf 1 346896 0 0
+/diary/default/index 1 10860 0 0
+/diary/users/deleteRate/id/109 1 1 0 0
+/diary/default/losepass 3 36036 0 0
+/diary/users/rates/id/32 1 18466 0 0
+/css/font/PTF56F_W.eot 5 756670 0 0
+/site/camps 5 67335 1 1
+/diary/users/admin/id/40/Users_page/2 3 47313 0 0
+/gallery/index 3 186714 1 2
+/diary/users/admin/Users_page/rates/id/40 1 21939 0 0
+/index.php 1 19341 1 1
+/diary/subjects/create 3 34832 0 0
+/site/ChildrenProgram 8 96480 5 3
+/css/font/PTF76F_W.eot 5 645495 0 0
+/diary/users/admin/id/40/Users_page/rates/id/40 2 43914 0 0
+/diary/subjects/update/id/1 1 11595 0 0
+END_SIDER
